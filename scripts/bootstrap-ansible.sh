@@ -160,6 +160,9 @@ info "Variable files: \"\${VAR1}\""
 \$(which ansible-playbook) \${VAR1} \$@
 EOF
 
+sudo cp -r /opt/openstack-ansible/etc/openstack_deploy/ /etc/openstack_deploy
+python /opt/openstack-ansible/scripts/pw-token-gen.py --file /etc/openstack_deploy/user_secrets.yml
+
 # Ensure wrapper tool is executable
 chmod +x /usr/local/bin/openstack-ansible
 

@@ -176,4 +176,4 @@
 # default, but an option to opt-in is available by setting the following
 # variable to 'true'.
 # Docs: http://docs.openstack.org/developer/openstack-ansible-security/
-# apply_security_hardening: true
+apply_security_hardening: false
