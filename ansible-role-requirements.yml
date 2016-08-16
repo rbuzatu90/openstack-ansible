@@ -24,7 +24,7 @@
   version: 1.6.0
 - name: lxc_container_create
   scm: git
-  src: https://git.openstack.org/rbuzatu90/openstack-ansible-lxc_container_create
+  src: https://github.com/rbuzatu90/openstack-ansible-lxc_container_create
   version: 5285d7941997a0531419796ed557376e8103167d 
 - name: lxc_hosts
   scm: git
