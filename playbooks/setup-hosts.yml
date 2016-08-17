@@ -13,6 +13,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+- include: bridge-setup.yml
 - include: openstack-hosts-setup.yml
 - include: security-hardening.yml
 - include: lxc-hosts-setup.yml
