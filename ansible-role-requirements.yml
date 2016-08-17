@@ -26,6 +26,10 @@
   scm: git
   src: https://github.com/rbuzatu90/openstack-ansible-lxc_container_create
   version: 5285d7941997a0531419796ed557376e8103167d 
+- name: ansible-linux-bridges
+  scm: git
+  src: https://github.com/rbuzatu90/ansible-linux-bridges
+  version: a3f50a8b6f6d4ffe77881ccd21f40c685a617b62
 - name: lxc_hosts
   scm: git
   src: https://github.com/rbuzatu90/openstack-ansible-lxc_hosts

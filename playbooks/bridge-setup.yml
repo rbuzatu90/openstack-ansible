@@ -5,4 +5,4 @@
   max_fail_percentage: 20
   user: root
   roles:
-    - role: "bridges"
+    - role: "ansible-linux-bridges"
